@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mackenzie Miller</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <style>
+
+
+
+  .wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-row-gap: 10px;
+  }
+
+  .mainheader {
+    grid-row: 1 / 2;
+  }
+
+  .content {
+    grid-row: 2 / 3;
+  }
+
+  .panel {
+    grid-row: 3 / 4;
+  }
+
+  .mainfooter {
+    grid-row: 4 / 5;
+  }
+
+  @media (min-width: 600px) {
+
+    .wrapper {
+      grid-template-columns: 2fr 4fr;
+      grid-column-gap: 2em;
+      grid-row-gap: 20px;
+    }
+
+    .mainheader {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+    }
+
+    .panel {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    .content {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+
+    .mainfooter {
+      grid-column: 1 / 3;
+      grid-row: 3 / 4;
+    }
+}
+
+  </style>
+
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header class="mainheader">
+      <h1>Mackenzie<span>Miller</span></h1>
+      <h2>portfolio</h2>
+    </header>
+
+
+
+
+    <div class="panel">
+        <ul>
+          <li><a href="index.html">Personal Statement</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="performances.html">Performances</a></li>
+          <li class="active"><a href="masterclasses.html">Masterclasses</a></li>
+          <li><A href="compositions.html">Compositions</a></li>
+          <li><a href="improvisation.html">Improvisation</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="outreach.html">Music Outreach</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Masterclasses</h2>
+      <p>Masterclasses are a cross between a private lesson and a performance: You have the opportunity to work one-on-one with a professional, but in the presence of an audience. Below are several videos of me in masterclasses recieving feedback.
+      </p>
+      <div class="watch">
+      <h3>Masterclass with Kersten McCall</h3>
+      <div class="videoWrapper">
+        <iframe width="560" height="349" src="https://player.vimeo.com/video/243949801" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p>In this masterclass I performed the Daphnis et Chloe flute solo with flute trio accompaniment for Kersten McCall, Principal Flutist of the Royal Concertgebouw Orchestra.</p>
+    </div>
+
+      <div class="watch">
+      <h3>Masterclass with James Galway</h3>
+      <div class="videoWrapper">
+        <iframe width="560" height="349" src="https://player.vimeo.com/video/243947886" frameborder="0" allowfullscreen></iframe>
+      </div>
+       <p>I was invited by the Galways to perform at their summer festival in Weggis, Switzerland. In this video I am working on fundamentals in tone with Sir James. The entire festival was a learning experience I will never forget!</p>
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <footer class="mainfooter">
+      <p></p>
+    </footer>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mackenzie Miller</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <style>
+
+
+
+  .wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-row-gap: 10px;
+  }
+
+  .mainheader {
+    grid-row: 1 / 2;
+  }
+
+  .content {
+    grid-row: 2 / 3;
+  }
+
+  .panel {
+    grid-row: 3 / 4;
+  }
+
+  .mainfooter {
+    grid-row: 4 / 5;
+  }
+
+  @media (min-width: 600px) {
+
+    .wrapper {
+      grid-template-columns: 2fr 4fr;
+      grid-column-gap: 2em;
+      grid-row-gap: 20px;
+    }
+
+    .mainheader {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+    }
+
+    .panel {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    .content {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+
+    .mainfooter {
+      grid-column: 1 / 3;
+      grid-row: 3 / 4;
+    }
+}
+
+  </style>
+
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header class="mainheader">
+      <h1>Mackenzie<span>Miller</span></h1>
+      <h2>portfolio</h2>
+    </header>
+
+
+
+
+    <div class="panel">
+        <ul>
+          <li><a href="index.html">Personal Statement</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li class="active"><a href="performances.html">Performances</a></li>
+          <li><a href="masterclasses.html">Masterclasses</a></li>
+          <li><A href="compositions.html">Compositions</a></li>
+          <li><a href="improvisation.html">Improvisation</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="outreach.html">Music Outreach</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Performances</h2>
+      <p>Below are a series of performances (listed from newest to oldest) that I feel accurately display my growth as a musician and also demonstrate my interest in exposing my audience to lesser known art.
+      </p>
+      <div class="watch">
+      <h3>Deux Esquisses by Phillipe Gaubert</h3>
+      <div class="videoWrapper">
+        <iframe width="560" height="349" src="https://player.vimeo.com/video/243948126" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p>I wanted to perform this impressionistic French piece because it is a lesser known work by a famous flute composer.
+      </p>
+
+    </div>
+      <div class="listen">
+        <h3>Trois Pieces by Pierre-Octave Ferroud</h3>
+        <audio src="audio/ferroud_feb_2017.wav" controls><p>this browser does not support our audio format.</p></audio>
+        <p>This piece for unaccompanied flute is also French, but with an exotic flare to it. Again, my interest in the piece stemmed from the fact that it is not performed often. This performance is from my junior year solo recital.</p>
+      </div>
+      <div class="listen">
+        <h3>Suite for Flute and Piano by Charles-Marie Widor</h3>
+        <audio src="audio/widor_feb_2017.wav" controls><p>this browser does not support our audio format.</p></audio>
+        <p>This French suite is from the end of the Romantic era and consists of four movements. To me, the music flows similarly to a love story. Also from my junior year solo recital.</p>
+      </div>
+      <div class="listen">
+        <h3>Excerpt from Sergei Prokofiev's Peter and the Wolf</h3>
+        <audio src="audio/prokofiev_jan_2017.wav" controls><p>this browser does not support our audio format.</p></audio>
+        <p>One of the most recognizable flute excerpts known today, Prokofiev's flute solo from Peter and the Wolf brings out a bird's vocal, energetic qualities. This recording was part of an audition that I submitted for a summer flute intensive workshop this past summer.</p>
+      </div>
+      <div class="listen">
+        <h3>Excerpt from Maurice Ravel's Daphnis et Chloe</h3>
+        <audio src="audio/ravel_jan_2017.wav" controls><p>this browser does not support our audio format.</p></audio>
+        <p>This famous flute solo enters in the scene of the ballet where the characters mimick the story of Pan pursing a hesitant water nymph named Syrinx. Similar to the Prokofiev, I am drawn to the flute solos that emulate particular characters. This recording was also part of an audition that I submitted for a summer flute intensive workshop this past summer.</p>
+      </div>
+      <div class="watch">
+      <h3>Night Piece for Flute and Strings by Arthur Foote.</h3>
+      <div class="videoWrapper">
+        <iframe width="560" height="349" src="https://player.vimeo.com/video/243947271" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p>I performed this beautiful, lesser-known piece with the accompaniment of several string colleagues of mine. I enjoyed the collaboration process that created this performance, and, as in the other pieces, I really enjoy bringing less familiar works to the stage. </p>
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <footer class="mainfooter">
+      <p></p>
+    </footer>
+  </div>
+
+</body>
+</html>

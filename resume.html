@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mackenzie Miller</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <style>
+
+
+
+  .wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-row-gap: 10px;
+  }
+
+  .mainheader {
+    grid-row: 1 / 2;
+  }
+
+  .content {
+    grid-row: 2 / 3;
+  }
+
+  .panel {
+    grid-row: 3 / 4;
+  }
+
+  .mainfooter {
+    grid-row: 4 / 5;
+  }
+
+  @media (min-width: 600px) {
+
+    .wrapper {
+      grid-template-columns: 2fr 4fr;
+      grid-column-gap: 2em;
+      grid-row-gap: 20px;
+    }
+
+    .mainheader {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+    }
+
+    .panel {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    .content {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+
+    .mainfooter {
+      grid-column: 1 / 3;
+      grid-row: 3 / 4;
+    }
+}
+
+  </style>
+
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header class="mainheader">
+      <h1>Mackenzie<span>Miller</span></h1>
+      <h2>portfolio</h2>
+    </header>
+
+
+
+    <div class="panel">
+        <ul>
+          <li><a href="index.html">Personal Statement</a></li>
+          <li class="active"><a href="resume.html">Resume</a></li>
+          <li><a href="performances.html">Performances</a></li>
+          <li><a href="masterclasses.html">Masterclasses</a></li>
+          <li><A href="compositions.html">Compositions</a></li>
+          <li><a href="improvisation.html">Improvisation</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="outreach.html">Music Outreach</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Resume</h2>
+    <nav>
+      <ul>
+        <!-- follow the tip above regarding links / ids. -->
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Campus%20Activities">Campus Activities</a></li>
+        <li><a href="#summerExperience">Summer Music Festivals</a></li>
+      </ul>
+    </nav>
+    <main class="resume">
+      <section>
+        <h3 id="Education">Education</h3>
+          <article>
+            <h4>University of Miami, Coral Gables, FL (2014-present)</h4>
+            <p>Major: Instrumental Performance (flute)</p>
+            <p>Minors: Psychology &amp; Interactive Media</p>
+            <p>Awards: President's Honor Roll, Disney Scholar, Presidential Scholar</p>
+      </section>
+
+      <section>
+        <h3 id="Experience">Experience</h3>
+          <article>
+            <h4>University of Miami</h4>
+            <div class="resume">
+            <p>The Miami Hurricane (Spring 2018)</p>
+            <p><em>Online Editor-in-training at TMH for the Spring 2018 semester.</em></p>
+            </div>
+            <div class="resume">
+            <p>Sylvester Center Performance Project (2016-2017)</p>
+            <p><em>Performed for patients at Sylvester Cancer Center in downtown Miami and in Coral Gables.</em></p>
+            </div>
+            <div class="resume">
+            <p>Frost Symphony Orchestra (2015-Present)</p>
+            <p><em>Student musician.</em></p>
+            </div>
+            <div class="resume">
+            <p>Frost Wind Ensemble (2015-Present)</p>
+            <p><em>Student musician.</em></p>
+            </div>
+            <div class="resume">
+            <p>Ress Family Project (2014-Present)</p>
+            <p><em>Assisted in patient recovery and comfort at local hospitals through song performances.</em></p>
+            </div>
+            <div class="resume">
+            <p>Frost Outreach Program (2014-Present)</p>
+            <p><em>Performed at public events and institutions to bring community awareness to the arts.</em></p>
+            </div>
+
+          </article>
+          <article>
+            <h4>Other</h4>
+            <div class="resume">
+            <p>Westminster Christian School (2017-Present)</p>
+            <p><em>Adjunct music teacher and administrative assistant.</em></p>
+          </div>
+          <div class="resume">
+          <p>New Horizons Band (2015-Present)</p>
+          <p><em>Band assistant for beginner adult instrumentalists.</em></p>
+        </div>
+          <div class="resume">
+          <p>Annunciation Catholic Church (2014-Present)</p>
+          <p><em>Solo flutist.</em></p>
+        </div>
+          <div class="resume">
+          <p>Linda Ray Child Intervention Center (2014-2015)</p>
+          <p><em>Assisted in the cognative and social development of at-risk toddlers in Overtown.</em></p>
+        </div>
+          </article>
+      </section>
+
+      <section>
+        <h3 id="Campus%20Activities">Campus Activities</h3>
+        <p>Psi Chi Psychology Honor Society (2017-Present)</p>
+        <p>Pi Kappa Lambda Music Honor Society (2016-Present)</p>
+        <p>Frost Woodwind Trio (2015-Present)</p>
+        <p>Sigma Alpha Iota Music Fraternity (2014-Present)</p>
+
+
+      </section>
+
+      <section>
+        <h3 id="summerExperience">Summer Music Festivals</h3>
+          <article>
+            <div class="resume">
+            <p>Galway Flute Festival (2017)</p>
+            <p><em>Flute intensive workshop held in Weggis, Switzerland. Performed in masterclasses for Kersten McCall and James Galway.</em></p>
+            </div>
+            <div class="resume">
+            <p>The Consummate Flutist (2017)</p>
+            <p><em>Flute intensive workshop held in Pittsburgh, PA. Performed in masterclasses for Albert Almarza and Marianne Gedigian.</em></p>
+            </div>
+            <div class="resume">
+            <p>Miami Summer Music Festival (2016)</p>
+            <p><em>Performed as principal flute, second flute and piccolo in productions of Gianni Schicchi, La Boheme, and L’enfant et les Sortileges, respectively.</em></p>
+            </div>
+            <div class="resume">
+            <p>Anatomy of Sound (2016)</p>
+            <p><em>Flute intensive workshop held in Ann Arbor, Michigan. Performed in masterclasses for Amy Porter and Mark Sparks.</em></p>
+            </div><div class="resume">
+            <p>Panoramic Flutist (2015)</p>
+            <p><em>Flute intensive workshop held in Boulder, CO. Participated as a performer in masterclasses for Christina Jennings and Paula Robison.</em></p>
+            </div><div class="resume">
+            <p>Aria International Summer Academy (2015)</p>
+            <p><em>Flute intensive workshop held in South Hadley, Massachusetts. Performed in masterclasses and private lessons with Bonita Boyd, Linda Toote, and Christina Jennings. </em></p>
+          </article>
+        </section>
+
+
+            </div>
+            <footer class="mainfooter">
+              <p></p>
+            </footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mackenzie Miller</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <style>
+
+
+
+  .wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-row-gap: 10px;
+  }
+
+  .mainheader {
+    grid-row: 1 / 2;
+  }
+
+  .content {
+    grid-row: 2 / 3;
+  }
+
+  .panel {
+    grid-row: 3 / 4;
+  }
+
+  .mainfooter {
+    grid-row: 4 / 5;
+  }
+
+  @media (min-width: 600px) {
+
+    .wrapper {
+      grid-template-columns: 2fr 4fr;
+      grid-column-gap: 2em;
+      grid-row-gap: 20px;
+    }
+
+    .mainheader {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+    }
+
+    .panel {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    .content {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+
+    .mainfooter {
+      grid-column: 1 / 3;
+      grid-row: 3 / 4;
+    }
+}
+
+  </style>
+
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header class="mainheader">
+      <h1>Mackenzie<span>Miller</span></h1>
+      <h2>portfolio</h2>
+    </header>
+
+
+
+
+    <div class="panel">
+        <ul>
+          <li><a href="index.html">Personal Statement</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="performances.html">Performances</a></li>
+          <li><a href="masterclasses.html">Masterclasses</a></li>
+          <li class="active"><A href="compositions.html">Compositions</a></li>
+          <li><a href="improvisation.html">Improvisation</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="outreach.html">Music Outreach</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Compositions</h2>
+      <p>Two of my most recent compositions are shown below, using 20th century composition techniques that are described below.
+      </p>
+      <div class="watch">
+      <h3><strong>12 tone solo flute composition</strong></h3>
+      <div class="videoWrapper">
+        <iframe width="560" height="349" src="https://player.vimeo.com/video/243599780" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p>Twelve-tone serialism is a composition technique created by Arnold Schoenberg. The goal is for all 12 chromatic notes of the musical scale to have a similiar number of occurences throughout a work. This is achieved by not repeating a particular pitch until the other eleven have been used. As a result, most 12-tone pieces sound like they do not have a tonal center. My goal in this composition was to challenge this concept by creating as much of a melodic sequence of notes as I could. The 12-tone pattern I use is presented in its original pattern and then in retrograde. </p>
+    </div>
+
+      <div class="watch">
+      <h3>Post-tonal composition for string trio, flute, and piano</h3>
+      <div class="videoWrapper">
+        <iframe width="560" height="349" src="https://player.vimeo.com/video/243948041" frameborder="0" allowfullscreen></iframe>
+      </div>
+       <p>Post-tonality is a 20th century compositional style in which a tonal center is not present, and therefore the music lacks a tonal hierarchy. This movement was a late 19th century response to tonal harmony. My composition for violin, cello, flute and piano is minimalistic in style and focuses on a twelve-tone sequence that is split into several fragments. Each player repeats the single grouping of notes as many times as they feel necessary before the entire group continues to the next sequence. The end result is a different performance of the piece each time it is played, as new performers will have different interpretations. Rather than receiving a piece of sheet music, performers received a sheet of general instructions accompanied by the melodic fragments. I was inspired by "In C" by Terry Riley, written in 1964. </p>
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <footer class="mainfooter">
+      <p></p>
+    </footer>
+  </div>
+  <script language="javascript" type="text/javascript" src="script.js"></script>
+</body>
+</html>
