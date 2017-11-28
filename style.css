@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans');  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    padding: 0 1em;
+}
+
+.mainheader {
+
+	margin: 1em 0 1em 0;
+  background-image: url("img/background2small.jpg");
+  left: 0px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainheader h1 {
+	font-size: 40px;
+font-family: 'Martel Sans', sans-serif;color:#D04452;
+
+  line-height: 40px;
+  padding-left: 13px;
+  padding-right: 0px;
+
+
+  /*background-color: black;*/
+}
+
+.mainheader h1 span {
+	display: grid;
+	font-size: 40px;
+  /*font-family: 'Homemade Apple', cursive;*/
+font-family: 'Martel Sans', sans-serif;	color:#D04452;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.mainheader h1 p {
+  text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+
+}
+
+.mainheader h2 {
+  color: white;
+  padding-left: 15px;
+}
+
+
+.resume {
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+}
+
+.resume h3{
+  text-transform: uppercase;
+}
+
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.panel {
+	padding: 10px;
+  left: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.panel li {
+  margin: 10px;
+  border-bottom: 1px dotted #999;
+	margin-right: 20px;
+
+}
+
+
+
+nav {
+  	padding: 10px;
+    left: 0px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+nav li {
+    font-size: 14px;
+    font-weight: bold;
+  	margin-right: 20px;
+
+  }
+
+nav a{
+      text-decoration: none;
+      color: #000;
+    }
+
+.mainfooter {
+	background-color: black;
+	color: #fff;
+	padding: 10px;
+}
+
+.listen,.watch, .resume p{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+ul{
+  display: inline-block;
+  list-style-type: none;
+  color: #000;
+  margin: 2px;
+  margin-left: 0;
+  padding-left: 0; }
+
+.panel a{
+      text-decoration: none;
+      color: #000;
+    }
+a:hover {
+color:#D04452;
+}
+
+
+#Iframe-Master-CC-and-Rs {
+  max-width: 512px;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+/* inner wrapper: make responsive */
+.responsive-wrapper {
+  position: relative;
+  height: 0;    /* gets height from padding-bottom */
+
+  /* put following styles (necessary for overflow and scrolling handling on mobile devices) inline in .responsive-wrapper around iframe because not stable in CSS:
+    -webkit-overflow-scrolling: touch; overflow: auto; */
+
+}
+
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* padding-bottom = h/w as % -- sets aspect ratio */
+/* YouTube video aspect ratio */
+.responsive-wrapper-wxh-572x612 {
+  padding-bottom: 107%;
+}
+
+/* general styles */
+/* ============== */
+.set-border {
+  border: 5px inset #4f4f4f;
+}
+.set-box-shadow {
+  -webkit-box-shadow: 4px 4px 14px #4f4f4f;
+  -moz-box-shadow: 4px 4px 14px #4f4f4f;
+  box-shadow: 4px 4px 14px #4f4f4f;
+}
+.set-padding {
+  padding: 40px;
+}
+.set-margin {
+  margin: 30px;
+}
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.resume section{
+  margin-bottom: 50px;
+}
+
+.resume div{
+  margin-bottom: 25px;
+  line-height: 20px;
+}
+
+.listen p{
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 25px;
+}
+
+.watch p{
+  padding-bottom: 25px;
+}
