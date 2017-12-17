@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
-@import url('https://fonts.googleapis.com/css?family=Martel+Sans');  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans');
+box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -21,21 +22,18 @@ body {
 
 .mainheader h1 {
 	font-size: 40px;
-font-family: 'Martel Sans', sans-serif;color:#D04452;
-
+  font-family: 'Martel Sans', sans-serif;
+  color:#D04452;
   line-height: 40px;
   padding-left: 13px;
   padding-right: 0px;
-
-
-  /*background-color: black;*/
 }
 
 .mainheader h1 span {
 	display: grid;
 	font-size: 40px;
-  /*font-family: 'Homemade Apple', cursive;*/
-font-family: 'Martel Sans', sans-serif;	color:#D04452;
+  font-family: 'Martel Sans', sans-serif;
+  color:#D04452;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -48,7 +46,6 @@ h2 {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     margin-bottom: 22px;
-
 }
 
 .mainheader h2 {
@@ -91,10 +88,7 @@ p {
   margin: 10px;
   border-bottom: 1px dotted #999;
 	margin-right: 20px;
-
 }
-
-
 
 nav {
   	padding: 10px;
@@ -106,7 +100,6 @@ nav li {
     font-size: 14px;
     font-weight: bold;
   	margin-right: 20px;
-
   }
 
 nav a{
@@ -131,12 +124,14 @@ ul{
   color: #000;
   margin: 2px;
   margin-left: 0;
-  padding-left: 0; }
+  padding-left: 0;
+}
 
 .panel a{
       text-decoration: none;
       color: #000;
-    }
+  }
+
 a:hover {
 color:#D04452;
 }
@@ -148,14 +143,12 @@ color:#D04452;
   overflow: hidden;
 }
 
-/* inner wrapper: make responsive */
 .responsive-wrapper {
   position: relative;
-  height: 0;    /* gets height from padding-bottom */
+  height: 0;
 
   /* put following styles (necessary for overflow and scrolling handling on mobile devices) inline in .responsive-wrapper around iframe because not stable in CSS:
     -webkit-overflow-scrolling: touch; overflow: auto; */
-
 }
 
 .responsive-wrapper iframe {
@@ -170,14 +163,10 @@ color:#D04452;
   border: none;
 }
 
-/* padding-bottom = h/w as % -- sets aspect ratio */
-/* YouTube video aspect ratio */
 .responsive-wrapper-wxh-572x612 {
   padding-bottom: 107%;
 }
 
-/* general styles */
-/* ============== */
 .set-border {
   border: 5px inset #4f4f4f;
 }
