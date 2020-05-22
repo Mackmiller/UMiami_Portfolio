@@ -11,5 +11,4 @@ This project was built using HTML and CSS.
 
 - [@mackmilllr](https://twitter.com/mackmilllr) Designer, Coder
 
-
-
+Content last updated December 2017.
